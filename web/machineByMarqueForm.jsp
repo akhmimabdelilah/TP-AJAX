@@ -13,6 +13,7 @@
         <title>JSP Page</title>
         <link href="style/css.css" rel="stylesheet" type="text/css"/>
         <link href="style/csslocal.css" rel="stylesheet" type="text/css"/>
+        <link href="style/styles.css" rel="stylesheet" type="text/css"/>
         <script src="script/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="script/machineByMarque.js" type="text/javascript"></script>
 
@@ -23,7 +24,7 @@
         <div class="content">
             <form method="GET" action="MachineController">
                 <fieldset>
-                    <legend>Selectionner Marque</legend>
+                    <legend>Search Mark</legend>
                     <table border="0">
 
                         <tr>

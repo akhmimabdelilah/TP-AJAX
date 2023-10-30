@@ -15,7 +15,7 @@ fieldset  {
 }
 
 .tab tr:nth-child(2n){
-    background-color: activeborder;
+    /*background-color: activeborder;*/
     font-family: Arial;
 }
 

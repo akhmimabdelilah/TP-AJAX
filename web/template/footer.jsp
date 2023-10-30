@@ -1,17 +1,12 @@
 <%-- 
     Document   : footer
-    Created on : 18 oct. 2019, 12:12:02
+    Created on : 30 oct. 2023, 12:12:02
     Author     : a
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+
+<div class="footer flex-box" style="height:110px; width: 100%;">
+    <span id="horloge" style="font-family: Courier New;text-align: center; width:100%;">&#169; 2023 AJAX - All rights reserved by AKHMIM Abdelilah</span>
+</div>

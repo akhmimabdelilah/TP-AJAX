@@ -9,9 +9,9 @@
     <head>
         <script src="script/script.js" type="text/javascript"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Mark Form</title>
         <link href="style/css.css" rel="stylesheet" type="text/css"/>
-        <link href="style/csslocal.css" rel="stylesheet" type="text/css"/>
+        <link href="style/css local.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <%@include file="template/header.jsp" %>

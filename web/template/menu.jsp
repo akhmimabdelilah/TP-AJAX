@@ -1,15 +1,20 @@
 <%-- 
     Document   : menu
-    Created on : 18 oct. 2019, 12:11:54
-    Author     : a
+    Created on : 30 oct. 2023, 12:12:02
+    Author     : akhmim
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<ul>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="etudiantForm.jsp">Gestion des etudiants</a></li>
-    <li><a href="marqueForm.jsp">Gestion des marques</a></li>
-    <li><a href="machineForm.jsp">Gestion des machines</a></li>
-    <li><a href="machineByMarqueForm.jsp">Machines par marque</a></li>
+<link href="../style/styles.css" rel="stylesheet" type="text/css"/>
+<!DOCTYPE html>
 
-</ul>
+<div class="nav">
+    <div class="logo active"><a href="index.html">Home</a></div>
+
+    <div class="menu">
+        <a href="etudiantForm.jsp" title="See Articals">Gestion des etudiants</a>
+        <a href="marqueForm.jsp" title="About">Gestion des marques</a>
+        <a href="machineForm.jsp" title="Contact Us">Gestion des machines</a>
+        <a href="machineForm.jsp" title="Contact Us">Machines par marque</a>
+    </div>
+</div> 

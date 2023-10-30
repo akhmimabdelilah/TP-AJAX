@@ -7,14 +7,17 @@
     <head>
         <script src="script/script.js" type="text/javascript"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Etudiant Form</title>
         <script src="script/jsonExemple.js" type="text/javascript"></script>
         <link href="style/css.css" rel="stylesheet" type="text/css"/>
         <link href="style/csslocal.css" rel="stylesheet" type="text/css"/>
+        <link href="style/styles.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <%@include file="template/header.jsp" %>
         <%@include file="template/menu.jsp" %>
+        <%--<jsp:include page="template/menu.jsp"/>--%>
+
         <div class="content">
             <form method="GET" action="EtudiantController">
                 <fieldset>
@@ -94,8 +97,8 @@
                         <%}%>
                     </tbody>
                 </table>
-
             </fieldset>
-        </form>            
-</body>
+        </div>
+        <%@include file="template/footer.jsp" %>
+    </body>
 </html>

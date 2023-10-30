@@ -9,16 +9,21 @@ import ma.school.service.EtudiantService;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
- * @author leblond
+ * @author akhmim
  */
 public class Test {
+
     public static void main(String[] args) {
         EtudiantService es = new EtudiantService();
-        es.create(new Etudiant("RAMI", "ALI", "Agadir", new Date(), "homme"));
-        for(Etudiant e : es.findAll())
-            System.out.println(e.getId()+" "+e.getNom());
+//        es.create(new Etudiant("RAMI", "ALI", "Agadir", new Date(), "homme"));
+//        es.create(new Etudiant("Akhmim", "Abdelilah", "Casa", new Date(), "male"));
+
+        for (Etudiant e : es.findAll()) {
+//            System.out.println(e.getId() + " " + e.getNom());
+            System.out.println(e);
+
+        }
     }
 }

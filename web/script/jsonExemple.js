@@ -1,10 +1,10 @@
 var o1 = {
-    nom:"SAFI",
-    prenom:"Amine"
+    nom: "SAFI",
+    prenom: "Amine"
 };
 var o2 = {
-    nom:"SAFI",
-    prenom:"Amine"
+    nom: "SAFI",
+    prenom: "Amine"
 };
 var tab = new Array();
 tab.push(o1);

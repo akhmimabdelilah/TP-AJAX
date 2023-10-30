@@ -6,7 +6,6 @@
 package ma.school.controller;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Date;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -46,22 +45,25 @@ public class EtudiantController extends HttpServlet {
         op = request.getParameter("op");
         EtudiantService es = new EtudiantService();
 
-        if (op.equals("Envoyer")) {
-            String nom = request.getParameter("nom");
-            String prenom = request.getParameter("prenom");
-            String ville = request.getParameter("ville");
-            String date = request.getParameter("dateNaissance");
-            System.out.println(date);
-            Date dateNaissance = new Date(date.replace("-", "/"));
-            String sexe = request.getParameter("sexe");
-            es.create(new Etudiant(nom, prenom, ville, dateNaissance, sexe));
-            response.sendRedirect("etudiantForm.jsp");
-        } else if (op.equals("delete")) {
-            int id = Integer.parseInt(request.getParameter("id"));
-            es.delete(es.findById(id));
-            response.sendRedirect("etudiantForm.jsp");
-        } else if (op.equals("update")) {
-
+        switch (op) {
+            case "Envoyer":
+                String nom = request.getParameter("nom");
+                String prenom = request.getParameter("prenom");
+                String ville = request.getParameter("ville");
+                String date = request.getParameter("dateNaissance");
+                System.out.println(date);
+                Date dateNaissance = new Date(date.replace("-", "/"));
+                String sexe = request.getParameter("sexe");
+                es.create(new Etudiant(nom, prenom, ville, dateNaissance, sexe));
+                response.sendRedirect("etudiantForm.jsp");
+                break;
+            case "delete":
+                int id = Integer.parseInt(request.getParameter("id"));
+                es.delete(es.findById(id));
+                response.sendRedirect("etudiantForm.jsp");
+                break;
+            case "update":
+                break;
         }
     }
 

@@ -1,7 +1,15 @@
+<%-- 
+    Document   : header
+    Created on : 30 oct. 2023, 12:12:02
+    Author     : akhmim
+--%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<div class="header" style="height:110px;width: 100%;">
-    <img id="logo" src="images/logo.png" alt="logo" style="width:100px;height:100px;"/>     
-    <span id="horloge" style="font-family: Courier New;text-align: center; width:100%;"></span>
+<!DOCTYPE html>
+
+<div class="header">
+    <img id="logo" src="../images/logo.png" alt="logo" />     
+    <span id="horloge" ></span>
 </div>
 <script src="script/horloge.js" type="text/javascript"></script>
 

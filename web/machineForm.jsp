@@ -11,7 +11,7 @@
     <head>
         <script src="script/script.js" type="text/javascript"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Machine Form</title>
         <link href="style/css.css" rel="stylesheet" type="text/css"/>
         <link href="style/csslocal.css" rel="stylesheet" type="text/css"/>
     </head>
@@ -37,7 +37,7 @@
                                 <select id="marque" name="marque">
                                     <%
                                         MarqueService ms = new MarqueService();
-                                        for(Marque m : ms.findAll()){
+                                        for (Marque m : ms.findAll()) {
                                     %>
                                     <option value="<%=m.getId()%>"><%=m.getLibelle()%></option>
                                     <%}%>
@@ -48,7 +48,7 @@
                             <td>Date Achat</td>
                             <td><input id="date" type="date" name="dateAchat" value="" required="" /></td>
                         </tr>
-                        
+
                         <tr>
                             <td></td>
                             <td>
@@ -73,7 +73,7 @@
                             <th>Prix</th>
                             <th>Marque</th>
                             <th>Date d'achat</th>
-                       
+
                             <th>Supprimer</th>
                             <th>Modifier</th>
                         </tr>
