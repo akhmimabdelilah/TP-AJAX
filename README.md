@@ -1,19 +1,19 @@
 ## Projet Java de Gestion des Etudiants, Machines et Marques
 
 - **Gestion des etudiant :**
-![etudiant](./img/etudiant.jpeg)
+![etudiant](./img/etudiant.png)
 
 - **Gestion des marques :**
-![marque](./img/marque.jpeg)
+![marque](./img/marque.png)
 
 - **Gestion des machines :**
-![machine](./img/machine.jpeg)
+![machine](./img/machine.png)
 
 - **Recherche des references :**
-![reference](./img/reference.jpeg)
+![reference](./img/reference.png)
 
 - **Affichage des graphes :**
-![graphe](./img/graphe.jpeg)
+![graphe](./img/graphe.png)
   
 ## les fonctionnalités implémentées
 1. les operations CRUD pour les machines
