@@ -104,8 +104,10 @@ li a:hover:not(.active) {
     height:110px; width: 100%;
 }
 .header #horloge { float:right;}
-.header #logo { float:left; 
-                display: inline;}
+.header #logo { 
+    float: left; 
+    display: inline;
+}
 
 #horloge {
     font-family: Courier New; text-align: center; width:100%;
@@ -120,7 +122,7 @@ li a:hover:not(.active) {
     height: 50px;
     background-color: black;
     color: white;
-        
+
     /*    position: absolute;
         bottom: 0;
         z-index: 1;*/
